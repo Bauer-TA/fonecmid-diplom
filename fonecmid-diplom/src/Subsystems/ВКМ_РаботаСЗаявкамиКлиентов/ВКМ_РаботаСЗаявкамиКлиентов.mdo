@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f0572fb-f99f-485d-a38c-2ad754c12bd5">
+  <name>ВКМ_РаботаСЗаявкамиКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с заявками клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+</mdclass:Subsystem>

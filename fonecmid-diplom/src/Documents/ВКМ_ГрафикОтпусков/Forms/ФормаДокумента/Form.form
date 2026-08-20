@@ -260,6 +260,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ОтпускаСотрудников.ДатаНачала</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтпускаСотрудниковДатаНачалаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаНачалаРасширеннаяПодсказка</name>
         <id>31</id>
@@ -301,6 +305,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ОтпускаСотрудников.ДатаОкончания</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтпускаСотрудниковДатаОкончанияПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка</name>
         <id>34</id>
@@ -507,26 +515,11 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>КоличествоДней</name>
-    <title>
-      <key>ru</key>
-      <value>Количество дней</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.ОтпускаСотрудников</segments>
+      </tablePath>
+    </additionalColumns>
   </attributes>
   <formCommands>
     <name>АнализГрафика</name>

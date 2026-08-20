@@ -200,6 +200,7 @@
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
       <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
     </items>
     <items id="e855efdb-b746-42c3-9385-da3c25c7193d">

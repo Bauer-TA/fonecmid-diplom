@@ -94,7 +94,6 @@
   <choiceMode>BothWays</choiceMode>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
-  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</baseCalculationTypes>
   <standardTabularSections>
     <name>BaseCalculationTypes</name>
     <synonym>
